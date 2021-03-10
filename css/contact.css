@@ -215,6 +215,19 @@ main {
 /* Tablet Design */
 /* Desktop Design */
 /* Main */
+main {
+  text-align: center;
+  color: #ce3636;
+}
+
+main #page_header {
+  font-size: 2.5rem;
+}
+
+main #contact_form {
+  border: solid #ce3636 1rem;
+}
+
 /* Tablet Design */
 /* Desktop Design */
 /*# sourceMappingURL=contact.css.map */

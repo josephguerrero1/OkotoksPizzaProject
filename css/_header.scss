@@ -1,6 +1,7 @@
 /* Mobile Design */
 
-$font-color: #ce3636;
+$font-color1: #ce3636;
+$font-color2: #9E0808;
 
 * {
     margin: 0;
@@ -8,7 +9,7 @@ $font-color: #ce3636;
 }
 
 header {
-    background-color: $font-color;
+    background-color: $font-color1;
     display: grid;
     top: 0;
     right: 0;
@@ -122,7 +123,7 @@ header {
         #header_menu {
             position: fixed;
             display: grid;
-            background-color: $font-color;
+            background-color: $font-color1;
             width: 100vw;
             left: -22.5rem;
             bottom: 0;
