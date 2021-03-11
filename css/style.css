@@ -92,10 +92,11 @@ header #hamburgermenu #menu_checkbox {
 }
 
 header #hamburgermenu #menu_checkbox:checked {
-  top: 1rem;
-  right: 1rem;
-  opacity: 1;
+  top: 0.25rem;
+  right: 0.65rem;
+  opacity: 0;
   left: unset;
+  position: fixed;
 }
 
 header #hamburgermenu #menu_checkbox:checked ~
@@ -105,6 +106,7 @@ header #hamburgermenu #menu_checkbox:checked ~
   left: unset;
   width: 3rem;
   height: 3rem;
+  position: fixed;
 }
 
 header #hamburgermenu #menu_checkbox:checked ~
@@ -239,7 +241,6 @@ main .first_promo {
   color: white;
   position: absolute;
   top: 52.5rem;
-  z-index: 1;
   font-size: 3.7rem;
   line-height: 5rem;
   width: 95%;
@@ -250,7 +251,6 @@ main .second_promo {
   color: white;
   position: absolute;
   top: 85rem;
-  z-index: 1;
   font-size: 3.7rem;
   line-height: 5.5rem;
   width: 95%;
