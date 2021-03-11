@@ -230,22 +230,31 @@ main #content_frame {
   text-align: center;
 }
 
-main #first_promo {
-  position: relative;
-  text-align: center;
-  color: #ce3636;
+main img {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
 }
 
-main #first_promo #50_off_Friday {
-  -webkit-filter: brightness(40%);
-          filter: brightness(40%);
-}
-
-main #first_promo .first_promo {
+main .first_promo {
+  color: white;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  right: 50%;
+  top: 52.5rem;
+  z-index: 1;
+  font-size: 3.7rem;
+  line-height: 5rem;
+  width: 95%;
+  left: 0.55rem;
+}
+
+main .second_promo {
+  color: white;
+  position: absolute;
+  top: 85rem;
+  z-index: 1;
+  font-size: 3.7rem;
+  line-height: 5.5rem;
+  width: 95%;
+  left: 0.55rem;
 }
 
 /* Tablet Design */
