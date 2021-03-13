@@ -680,20 +680,20 @@ main .second_promo {
   main .first_promo {
     color: white;
     position: absolute;
-    top: 52.5rem;
-    font-size: 3.7rem;
-    line-height: 5rem;
+    top: 90rem;
+    font-size: 8rem;
+    line-height: 15rem;
     width: 95%;
     left: 0.55rem;
   }
   main .second_promo {
     color: white;
     position: absolute;
-    top: 85rem;
-    font-size: 3.7rem;
-    line-height: 5.5rem;
+    top: 195rem;
+    font-size: 8rem;
+    line-height: 18rem;
     width: 95%;
-    left: 0.55rem;
+    left: 1.6rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
