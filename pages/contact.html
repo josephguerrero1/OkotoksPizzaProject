@@ -91,51 +91,54 @@
 
             <form action="#">
 
-                <p>Issues or Concerns?</p>
-
-                <label for="firstname">First Name:</label>
-
-                <input type="text" id="firstname" name="firstname">
+                <p id="issues-concerns">Issues or Concerns?</p>
 
                 <br>
 
-                <label for="lastname">Last Name:</label>
+                <article>
 
-                <input type="text" name="lastname" id="lastname">
+                    <label for="firstname" class="labels" id="firstname_1">First Name:</label>
 
-                <br>
+                    <input type="text" id="firstname_2" name="firstname" required>
 
-                <label for="phonenumber">Phone Number:</label>
+                    <label for="lastname" class="labels" id="lastname_1">Last Name:</label>
 
-                <input type="tel" id="phonenumber" name="phonenumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    <input type="text" name="lastname" id="lastname_2" required>
 
-                <br>
+                    <label for="phonenumber" class="labels" id="phonenumber_1">Phone Number:</label>
 
-                <small>Format: 123-456-7890</small>
+                    <input type="text" id="phonenumber_2" name="phonenumber" required>
 
-                <br>
+                    <label for="email" class="labels" id="email_1">Email Address:</label>
 
-                <label for="email">Email:</label>
+                    <input type="email" name="email" id="email_2" required>
 
-                <input type="email" name="email" id="email">
-
-                <br>
-
-                <label for="concern">What can we help you with?</label>
+                </article>
 
                 <br>
 
-                <input type="text" name="concern" id="concern">
+                <label for="concern" id="concern_1">What can we help you with?</label>
 
                 <br>
+                <br>
 
-                <input type="submit">
+                <textarea name="concern" id="concern_2" placeholder="Write concerns here" required></textarea>
+
+                <br>
+                <br>
+
+                <input type="submit" id="submit" name="submit" required>
+
+                <br>
+                <br>
 
             </form>
 
         </div>
 
     </main>
+
+    <br>
 
     <footer>
 

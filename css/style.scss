@@ -8,8 +8,9 @@
 
 main {
     text-align: center;
+    display: grid;
 
-    #page_header {
+    #introductory_message {
         font-size: 2rem;
         text-align: center;
         color: $font-color1;

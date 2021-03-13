@@ -217,8 +217,38 @@ main {
 /* Tablet Design */
 /* Desktop Design */
 /* Main */
-main {
-  height: 50rem;
+main #page_header {
+  font-size: 3rem;
+  color: #ce3636;
+  text-align: center;
+}
+
+main .menu_title {
+  border: 0.2rem solid #ce3636;
+  width: 92%;
+  margin: 0 auto;
+  color: #9E0808;
+}
+
+main .menu_title_2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+main .menu_items {
+  width: 90%;
+  margin: 0 auto;
+  list-style-type: none;
+  line-height: 2rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+main .menu_items .menu_description {
+  font-size: 0.65rem;
+  line-height: 0.75rem;
+  width: 75%;
+  color: #8f0000;
 }
 
 /* Tablet Design */

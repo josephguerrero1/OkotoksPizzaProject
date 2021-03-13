@@ -7,7 +7,40 @@
 /* Main */
 
 main {
-    height: 50rem;
+
+    #page_header {
+        font-size: 3rem;
+        color: $font-color1;
+        text-align: center;
+    }
+
+    .menu_title {
+        border: 0.2rem solid $font-color1;
+        width: 92%;
+        margin: 0 auto;
+        color: $font-color2;
+    }
+
+    .menu_title_2 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .menu_items {
+        width: 90%;
+        margin: 0 auto;
+        list-style-type: none;
+        line-height: 2rem;
+        margin-bottom: 1.5rem;
+        font-size: 1.2rem;
+
+        .menu_description {
+        font-size: 0.65rem;
+        line-height: 0.75rem;
+        width: 75%;
+        color: rgb(143, 0, 0);
+        }
+    }
 }
 
 /* Tablet Design */

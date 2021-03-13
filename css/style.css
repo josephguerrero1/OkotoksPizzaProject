@@ -219,9 +219,11 @@ main {
 /* Main */
 main {
   text-align: center;
+  display: -ms-grid;
+  display: grid;
 }
 
-main #page_header {
+main #introductory_message {
   font-size: 2rem;
   text-align: center;
   color: #ce3636;

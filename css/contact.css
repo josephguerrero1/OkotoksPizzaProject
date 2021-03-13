@@ -222,12 +222,82 @@ main {
   color: #ce3636;
 }
 
+main article {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  text-align: start;
+  padding-left: 1rem;
+  row-gap: 0.6rem;
+}
+
+main article #firstname_2 {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  width: 99.9%;
+  margin-right: 4.4rem;
+}
+
+main article #lastname_2 {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  width: 99.9%;
+  margin-right: 4.4rem;
+}
+
+main article #phonenumber_2 {
+  width: 90%;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+main article #email_2 {
+  width: 99%;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  margin-right: 0.8rem;
+}
+
+main #concern_1 {
+  left: 1.5rem;
+  text-align: left;
+  width: 90%;
+  display: block;
+  margin-left: 5%;
+}
+
+main #concern_2 {
+  width: 90%;
+  min-height: 200px;
+  margin-top: -1.75rem;
+}
+
 main #page_header {
   font-size: 2.5rem;
 }
 
+main #submit {
+  left: 1.5rem;
+  position: absolute;
+  font-size: 1.2rem;
+  color: #9E0808;
+  font-weight: 500;
+}
+
 main #contact_form {
-  border: solid #ce3636 1rem;
+  border: 0.2rem solid #ce3636;
+  width: 92%;
+  margin: 0 auto;
+  color: #9E0808;
+}
+
+main #contact_form #issues-concerns {
+  font-size: 2rem;
+}
+
+main #contact_form .labels {
+  font-size: 1.5rem;
 }
 
 /* Tablet Design */
