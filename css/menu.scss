@@ -96,7 +96,7 @@ main {
 main {
 
     #page_header {
-        font-size: 3rem;
+        font-size: 10rem;
         color: $font-color1;
         text-align: center;
     }
@@ -109,8 +109,9 @@ main {
     }
 
     .menu_title_2 {
-        font-size: 3rem;
+        font-size: 10rem;
         text-align: center;
+        margin-bottom: 3rem;
     }
 
     .menu_items {
@@ -118,14 +119,15 @@ main {
         margin: 0 auto;
         list-style-type: none;
         line-height: 2rem;
-        margin-bottom: 1.5rem;
-        font-size: 1.2rem;
+        margin-bottom: 7rem;
+        font-size: 4.25rem;
 
         .menu_description {
-        font-size: 0.65rem;
-        line-height: 0.75rem;
+        font-size: 1.75rem;
+        line-height: 2rem;
         width: 75%;
         color: rgb(143, 0, 0);
+        margin-top: 2rem;
         }
     }
 }

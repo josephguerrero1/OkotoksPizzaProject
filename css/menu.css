@@ -88,16 +88,16 @@ footer #copyrightstatement {
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 2.4rem;
+    font-size: 6.5rem;
+    line-height: 10rem;
     margin-left: .6rem;
   }
   footer #footerlinks a {
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 1.7rem;
+    font-size: 5rem;
+    line-height: 10rem;
     margin-top: 1.3rem;
     margin-left: .6rem;
   }
@@ -105,7 +105,7 @@ footer #copyrightstatement {
     color: white;
     font-family: -apple-system,     BlinkMacSystemFont,   'Segoe UI', Roboto,   Oxygen, Ubuntu,     Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
-    font-size: 0.75rem;
+    font-size: 3.5rem;
     margin-left: .6rem;
   }
 }
@@ -413,8 +413,6 @@ header #hamburgermenu #header_menu a {
 @media only screen and (min-width: 1000px) {
   header {
     background-color: #ce3636;
-    display: -ms-grid;
-    display: grid;
     top: 0;
     right: 0;
     left: 0;
@@ -423,12 +421,12 @@ header #hamburgermenu #header_menu a {
     /* End of hamburger menu */
   }
   header #logo {
-    width: 15rem;
+    width: 20rem;
   }
   header #logo_link {
-    margin-top: 1.25rem;
+    margin-top: 0.75rem;
     position: absolute;
-    left: 3.25rem;
+    left: 31rem;
   }
   header #phonenumber {
     font-weight: 400;
@@ -436,8 +434,9 @@ header #hamburgermenu #header_menu a {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 2rem;
     position: absolute;
-    left: 7rem;
-    top: 14.5rem;
+    left: 52.5rem;
+    top: 12rem;
+    font-size: 4rem;
   }
   header #hamburgermenu #menu_checkbox {
     width: 3rem;
@@ -646,7 +645,7 @@ main .menu_items .menu_description {
 /* Desktop Design */
 @media only screen and (min-width: 1000px) {
   main #page_header {
-    font-size: 3rem;
+    font-size: 10rem;
     color: #ce3636;
     text-align: center;
   }
@@ -657,22 +656,24 @@ main .menu_items .menu_description {
     color: #9E0808;
   }
   main .menu_title_2 {
-    font-size: 3rem;
+    font-size: 10rem;
     text-align: center;
+    margin-bottom: 3rem;
   }
   main .menu_items {
     width: 90%;
     margin: 0 auto;
     list-style-type: none;
     line-height: 2rem;
-    margin-bottom: 1.5rem;
-    font-size: 1.2rem;
+    margin-bottom: 7rem;
+    font-size: 4.25rem;
   }
   main .menu_items .menu_description {
-    font-size: 0.65rem;
-    line-height: 0.75rem;
+    font-size: 1.75rem;
+    line-height: 2rem;
     width: 75%;
     color: #8f0000;
+    margin-top: 2rem;
   }
 }
 /*# sourceMappingURL=menu.css.map */
