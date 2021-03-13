@@ -50,10 +50,94 @@ main {
 
 @media only screen and (min-width: 600px) {
 
+main {
+    text-align: center;
+    display: grid;
+
+    #introductory_message {
+        font-size: 6rem;
+        text-align: center;
+        color: $font-color1;
+    }
+
+    #content_frame {
+        position: relative;
+        text-align: center;
+    }
+
+    iframe {
+        width: 700px;
+        height: 500px;
+    }
+
+    img {
+        filter: brightness(50%);
+    }
+
+    .first_promo {
+        color: white;
+        position: absolute;
+        top: 85rem;
+        font-size: 5rem;
+        line-height: 10rem;
+        width: 95%;
+        left: 1.1rem;
+    }
+
+    .second_promo {
+        color: white;
+        position: absolute;
+        top: 157rem;
+        font-size: 5rem;
+        line-height: 10rem;
+        left: 1.2rem;
+    }
+}
+
 }
 
 /* Desktop Design */
 
 @media only screen and (min-width: 1000px) {
+
+main {
+    text-align: center;
+    display: grid;
+
+    #introductory_message {
+        font-size: 2rem;
+        text-align: center;
+        color: $font-color1;
+    }
+
+    #content_frame {
+        position: relative;
+        text-align: center;
+    }
+
+    img {
+        filter: brightness(50%);
+    }
+
+    .first_promo {
+        color: white;
+        position: absolute;
+        top: 52.5rem;
+        font-size: 3.7rem;
+        line-height: 5rem;
+        width: 95%;
+        left: 0.55rem;
+    }
+
+    .second_promo {
+        color: white;
+        position: absolute;
+        top: 85rem;
+        font-size: 3.7rem;
+        line-height: 5.5rem;
+        width: 95%;
+        left: 0.55rem;
+    }
+}
 
 }
