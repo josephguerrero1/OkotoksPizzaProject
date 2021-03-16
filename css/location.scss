@@ -29,61 +29,10 @@ main {
     }
 }
 
-/* Tablet Design */
-
-@media only screen and (min-width: 600px) {
-
-main {
-    text-align: center;
-    color: $font-color1;
-
-    #page_header {
-        font-size: 6rem;
-    }
-
-    iframe {
-        width: 45rem;
-        height: 40rem;
-    }
-
-    #content_frame {
-        text-align: center;
-        position: relative;
-    }
-
-    #message {
-        font-size: 4rem;
-    }
-}
-
-}
-
-/* Desktop Design */
-
 @media only screen and (min-width: 1000px) {
 
-main {
-    text-align: center;
-    color: $font-color1;
-
-    #page_header {
-        font-size: 10rem;
-    }
-
-    iframe {
-        width: 75rem;
-        height: 80rem;
-    }
-
-    #content_frame {
-        text-align: center;
-        position: relative;
-    }
-
-    #message {
-        font-size: 8rem;
+    #phonenumber-footer {
+    pointer-events: none;
+    text-decoration: none;
     }
 }
-
-}
-

@@ -43,93 +43,10 @@ main {
     }
 }
 
-/* Tablet Design */
-
-@media only screen and (min-width: 600px) {
-
-main {
-
-    #page_header {
-        font-size: 6rem;
-        color: $font-color1;
-        text-align: center;
-    }
-
-    .menu_title {
-        border: 0.2rem solid $font-color1;
-        width: 92%;
-        margin: 0 auto;
-        color: $font-color2;
-    }
-
-    .menu_title_2 {
-        font-size: 6rem;
-        text-align: center;
-        margin-bottom: 2rem;
-        margin-top: 1rem;
-    }
-
-    .menu_items {
-        width: 90%;
-        margin: 0 auto;
-        list-style-type: none;
-        line-height: 2rem;
-        margin-bottom: 4rem;
-        font-size: 2.55rem;
-
-        .menu_description {
-        font-size: 1.3rem;
-        line-height: 1.5rem;
-        width: 75%;
-        color: rgb(143, 0, 0);
-        margin-top: 1.25rem;
-        }
-    }
-}
-
-}
-
-/* Desktop Design */
-
 @media only screen and (min-width: 1000px) {
 
-main {
-
-    #page_header {
-        font-size: 10rem;
-        color: $font-color1;
-        text-align: center;
+    #phonenumber-footer {
+    pointer-events: none;
+    text-decoration: none;
     }
-
-    .menu_title {
-        border: 0.2rem solid $font-color1;
-        width: 92%;
-        margin: 0 auto;
-        color: $font-color2;
-    }
-
-    .menu_title_2 {
-        font-size: 10rem;
-        text-align: center;
-        margin-bottom: 3rem;
-    }
-
-    .menu_items {
-        width: 90%;
-        margin: 0 auto;
-        list-style-type: none;
-        line-height: 2rem;
-        margin-bottom: 7rem;
-        font-size: 4.25rem;
-
-        .menu_description {
-        font-size: 1.75rem;
-        line-height: 2rem;
-        width: 75%;
-        color: rgb(143, 0, 0);
-        margin-top: 2rem;
-        }
-    }
-}
-
 }

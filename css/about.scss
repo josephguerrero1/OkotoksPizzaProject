@@ -47,98 +47,14 @@ main {
     }
 }
 
-/* Tablet Design */
-
-@media only screen and (min-width: 600px) {
-
-main {
-    text-align: center;
-
-    #page_header {
-        font-size: 6rem;
-        color: $font-color1;
-    }
-    
-    #about_us_description {
-        border: 0.2rem solid $font-color1;
-        width: 92%;
-        margin: 0 auto;
-        color: $font-color2;
-
-        .content_heading {
-            font-size: 3rem;
-            margin-top: 0.8rem;
-        }
-
-        .content {
-            margin: 0 0.5rem;
-            font-size: 2rem;
-        }
-
-        #photo_1 {
-            width: 95%;
-        }
-
-        #photo_2 {
-            width: 95%;
-        }
-
-        #photo_3 {
-            width: 95%;
-        }
-
-        #photo_4 {
-            width: 95%;
-        }
-    }
-}
-
-}
-
-/* Desktop Design */
-
 @media only screen and (min-width: 1000px) {
 
-main {
-    text-align: center;
-
-    #page_header {
-        font-size: 6rem;
-        color: $font-color1;
+    #phonenumber-footer {
+    pointer-events: none;
+    text-decoration: none;
     }
-    
-    #about_us_description {
-        border: 0.2rem solid $font-color1;
-        width: 92%;
-        margin: 0 auto;
-        color: $font-color2;
 
-        .content_heading {
-            font-size: 5rem;
-            margin-top: 0.8rem;
-        }
-
-        .content {
-            margin: 0 0.5rem;
-            font-size: 3rem;
-        }
-
-        #photo_1 {
-            width: 95%;
-        }
-
-        #photo_2 {
-            width: 95%;
-        }
-
-        #photo_3 {
-            width: 95%;
-        }
-
-        #photo_4 {
-            width: 95%;
-        }
+    .content {
+        font-size: 2rem;
     }
-}
-
 }

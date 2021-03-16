@@ -41,72 +41,10 @@ footer #copyrightstatement {
   margin-left: .6rem;
 }
 
-/* Tablet Design */
-@media only screen and (min-width: 600px) {
-  footer {
-    background-color: #ce3636;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    text-align: center;
-  }
-  footer #Hours_Of_Operation {
-    color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 500;
-    font-size: 4rem;
-    line-height: 6rem;
-  }
-  footer #footerlinks a {
-    color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 500;
-    font-size: 3rem;
-    line-height: 6rem;
-    margin-top: 1.3rem;
-  }
-  footer #copyrightstatement {
-    color: white;
-    font-family: -apple-system,     BlinkMacSystemFont,   'Segoe UI', Roboto,   Oxygen, Ubuntu,     Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 500;
-    font-size: 2rem;
-    margin-left: .6rem;
-  }
-}
-
-/* Desktop Design */
 @media only screen and (min-width: 1000px) {
-  footer {
-    background-color: #ce3636;
-    display: -ms-grid;
-    display: grid;
-    bottom: 0;
-    right: 0;
-    left: 0;
-  }
-  footer #Hours_Of_Operation {
-    color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 500;
-    font-size: 6.5rem;
-    line-height: 10rem;
-    margin-left: .6rem;
-  }
-  footer #footerlinks a {
-    color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 500;
-    font-size: 5rem;
-    line-height: 10rem;
-    margin-top: 1.3rem;
-    margin-left: .6rem;
-  }
-  footer #copyrightstatement {
-    color: white;
-    font-family: -apple-system,     BlinkMacSystemFont,   'Segoe UI', Roboto,   Oxygen, Ubuntu,     Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 500;
-    font-size: 3.5rem;
-    margin-left: .6rem;
+  #phonenumber-footer {
+    pointer-events: none;
+    text-decoration: none;
   }
 }
 
@@ -206,7 +144,7 @@ header #hamburgermenu #menu_checkbox:checked ~ #header_menu {
   transition: ease-in-out;
   top: 0;
   bottom: 0;
-  right: 0;
+  right: 5000px;
   left: 0;
 }
 
@@ -240,7 +178,7 @@ header #hamburgermenu #header_menu {
   display: grid;
   background-color: #ce3636;
   width: 100vw;
-  left: -22.5rem;
+  left: -5000px;
   bottom: 0;
   top: 0;
   z-index: 1;
@@ -249,7 +187,7 @@ header #hamburgermenu #header_menu {
           align-items: end;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  opacity: 0;
+  opacity: 1;
 }
 
 header #hamburgermenu #header_menu div {
@@ -269,281 +207,10 @@ header #hamburgermenu #header_menu a {
   opacity: 0;
 }
 
-/* Tablet Design */
-@media only screen and (min-width: 600px) {
-  header {
-    background-color: #ce3636;
-    display: -ms-grid;
-    display: grid;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 18.5rem;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'HelveticaNeue', sans-serif;
-  }
-  header #logo {
-    width: 19rem;
-  }
-  header #logo_link {
-    margin-top: 1.25rem;
-    position: absolute;
-    left: 10rem;
-  }
-  header #phonenumber {
-    font-weight: 400;
-    color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 2rem;
-    position: absolute;
-    left: 17em;
-    top: 14.5rem;
-  }
-  #hamburgermenu #menu_checkbox {
-    width: 3rem;
-    height: 3rem;
-    opacity: 0;
-    position: absolute;
-    left: 1.25rem;
-    top: 14.5rem;
-    z-index: 11;
-  }
-  #hamburgermenu #menu_checkbox:checked {
-    top: 0.25rem;
-    right: 0.65rem;
-    opacity: 0;
-    left: unset;
-    position: fixed;
-  }
-  #hamburgermenu #menu_checkbox:checked ~
-#hamburger_container {
-    top: 0.4rem;
-    right: 1.5rem;
-    left: unset;
-    width: 3rem;
-    height: 3rem;
-    position: fixed;
-  }
-  #hamburgermenu #menu_checkbox:checked ~
-#hamburger_container #line_1 {
-    -webkit-transform: rotate(45deg) translateX(1.43rem);
-            transform: rotate(45deg) translateX(1.43rem);
-  }
-  #hamburgermenu #menu_checkbox:checked ~
-#hamburger_container #line_2 {
-    visibility: hidden;
-  }
-  #hamburgermenu #menu_checkbox:checked ~
-#hamburger_container #line_3 {
-    -webkit-transform: rotate(-45deg) translateX(1.43rem);
-            transform: rotate(-45deg) translateX(1.43rem);
-  }
-  #hamburgermenu #menu_checkbox:checked ~
-#hamburger_container .hamburger_line {
-    width: 2.6rem;
-    height: 0.5rem;
-    border-radius: 0%;
-  }
-  #hamburgermenu #menu_checkbox:checked ~ #header_menu {
-    opacity: 1;
-    -webkit-transition: ease-in-out;
-    transition: ease-in-out;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-  }
-  #hamburgermenu #menu_checkbox:checked ~ #header_menu a {
-    pointer-events: auto;
-    opacity: 1;
-    font-size: 6rem;
-  }
-  #hamburgermenu #hamburger_container {
-    display: -ms-grid;
-    display: grid;
-    width: 3rem;
-    height: 3rem;
-    z-index: 10;
-    position: absolute;
-    left: 1.5rem;
-    top: 14.8rem;
-  }
-  #hamburgermenu #hamburger_container .hamburger_line {
-    width: 2.5rem;
-    height: 0.4rem;
-    border-radius: 25%;
-    background-color: white;
-    z-index: 10;
-  }
-  #hamburgermenu #header_menu {
-    position: fixed;
-    display: -ms-grid;
-    display: grid;
-    background-color: #ce3636;
-    width: 100vw;
-    left: -22.5rem;
-    bottom: 0;
-    top: 0;
-    z-index: 1;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: end;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-    opacity: 0;
-  }
-  #hamburgermenu #header_menu div {
-    border-bottom: 0.125rem white solid;
-    padding-left: 2rem;
-    padding-bottom: 2rem;
-  }
-  #hamburgermenu #header_menu a {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 2.3rem;
-    color: white;
-    text-decoration: none;
-    font-weight: 700;
-    pointer-events: none;
-    cursor: default;
-    opacity: 0;
-  }
-  /* End of hamburger menu */
-}
-
-/* Desktop Design */
 @media only screen and (min-width: 1000px) {
-  header {
-    background-color: #ce3636;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 18.5rem;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'HelveticaNeue', sans-serif;
-    /* End of hamburger menu */
-  }
-  header #logo {
-    width: 20rem;
-  }
-  header #logo_link {
-    margin-top: 0.75rem;
-    position: absolute;
-    left: 31rem;
-  }
-  header #phonenumber {
-    font-weight: 400;
-    color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 2rem;
-    position: absolute;
-    left: 52.5rem;
-    top: 12rem;
-    font-size: 4rem;
-  }
-  header #hamburgermenu #menu_checkbox {
-    width: 3rem;
-    height: 3rem;
-    opacity: 0;
-    position: absolute;
-    left: 1.25rem;
-    top: 14.5rem;
-    z-index: 11;
-  }
-  header #hamburgermenu #menu_checkbox:checked {
-    top: 0.25rem;
-    right: 0.65rem;
-    opacity: 0;
-    left: unset;
-    position: fixed;
-  }
-  header #hamburgermenu #menu_checkbox:checked ~
-#hamburger_container {
-    top: 0.4rem;
-    right: 1.5rem;
-    left: unset;
-    width: 3rem;
-    height: 3rem;
-    position: fixed;
-  }
-  header #hamburgermenu #menu_checkbox:checked ~
-#hamburger_container #line_1 {
-    -webkit-transform: rotate(45deg) translateX(1.43rem);
-            transform: rotate(45deg) translateX(1.43rem);
-  }
-  header #hamburgermenu #menu_checkbox:checked ~
-#hamburger_container #line_2 {
-    visibility: hidden;
-  }
-  header #hamburgermenu #menu_checkbox:checked ~
-#hamburger_container #line_3 {
-    -webkit-transform: rotate(-45deg) translateX(1.43rem);
-            transform: rotate(-45deg) translateX(1.43rem);
-  }
-  header #hamburgermenu #menu_checkbox:checked ~
-#hamburger_container .hamburger_line {
-    width: 2.6rem;
-    height: 0.5rem;
-    border-radius: 0%;
-  }
-  header #hamburgermenu #menu_checkbox:checked ~ #header_menu {
-    opacity: 1;
-    -webkit-transition: ease-in-out;
-    transition: ease-in-out;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-  }
-  header #hamburgermenu #menu_checkbox:checked ~ #header_menu a {
-    pointer-events: auto;
-    opacity: 1;
-  }
-  header #hamburgermenu #hamburger_container {
-    display: -ms-grid;
-    display: grid;
-    width: 3rem;
-    height: 3rem;
-    z-index: 10;
-    position: absolute;
-    left: 1.5rem;
-    top: 14.8rem;
-  }
-  header #hamburgermenu #hamburger_container .hamburger_line {
-    width: 2.5rem;
-    height: 0.4rem;
-    border-radius: 25%;
-    background-color: white;
-    z-index: 10;
-  }
-  header #hamburgermenu #header_menu {
-    position: fixed;
-    display: -ms-grid;
-    display: grid;
-    background-color: #ce3636;
-    width: 100vw;
-    left: -22.5rem;
-    bottom: 0;
-    top: 0;
-    z-index: 1;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: end;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-    opacity: 0;
-  }
-  header #hamburgermenu #header_menu div {
-    border-bottom: 0.125rem white solid;
-    padding-left: 2rem;
-    padding-bottom: 2rem;
-  }
-  header #hamburgermenu #header_menu a {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 2.3rem;
-    color: white;
-    text-decoration: none;
-    font-weight: 700;
+  #phonenumber {
     pointer-events: none;
-    cursor: default;
-    opacity: 0;
+    text-decoration: none;
   }
 }
 
@@ -555,20 +222,6 @@ header #hamburgermenu #header_menu a {
 
 main {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'HelveticaNeue', sans-serif;
-}
-
-/* Tablet Design */
-@media only screen and (min-width: 600px) {
-  main {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'HelveticaNeue', sans-serif;
-  }
-}
-
-/* Desktop Design */
-@media only screen and (min-width: 1000px) {
-  main {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'HelveticaNeue', sans-serif;
-  }
 }
 
 /* Main */
@@ -606,74 +259,10 @@ main .menu_items .menu_description {
   color: #8f0000;
 }
 
-/* Tablet Design */
-@media only screen and (min-width: 600px) {
-  main #page_header {
-    font-size: 6rem;
-    color: #ce3636;
-    text-align: center;
-  }
-  main .menu_title {
-    border: 0.2rem solid #ce3636;
-    width: 92%;
-    margin: 0 auto;
-    color: #9E0808;
-  }
-  main .menu_title_2 {
-    font-size: 6rem;
-    text-align: center;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-  }
-  main .menu_items {
-    width: 90%;
-    margin: 0 auto;
-    list-style-type: none;
-    line-height: 2rem;
-    margin-bottom: 4rem;
-    font-size: 2.55rem;
-  }
-  main .menu_items .menu_description {
-    font-size: 1.3rem;
-    line-height: 1.5rem;
-    width: 75%;
-    color: #8f0000;
-    margin-top: 1.25rem;
-  }
-}
-
-/* Desktop Design */
 @media only screen and (min-width: 1000px) {
-  main #page_header {
-    font-size: 10rem;
-    color: #ce3636;
-    text-align: center;
-  }
-  main .menu_title {
-    border: 0.2rem solid #ce3636;
-    width: 92%;
-    margin: 0 auto;
-    color: #9E0808;
-  }
-  main .menu_title_2 {
-    font-size: 10rem;
-    text-align: center;
-    margin-bottom: 3rem;
-  }
-  main .menu_items {
-    width: 90%;
-    margin: 0 auto;
-    list-style-type: none;
-    line-height: 2rem;
-    margin-bottom: 7rem;
-    font-size: 4.25rem;
-  }
-  main .menu_items .menu_description {
-    font-size: 1.75rem;
-    line-height: 2rem;
-    width: 75%;
-    color: #8f0000;
-    margin-top: 2rem;
+  #phonenumber-footer {
+    pointer-events: none;
+    text-decoration: none;
   }
 }
 /*# sourceMappingURL=menu.css.map */
